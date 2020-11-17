@@ -50,7 +50,7 @@
         else if ($action == "insert")
             $query = "insert into books values($id, '$title', $price, $quantity, $flag)";
         else if ($action == "update")
-            $query = "update books set Body_style = '$title', Price = $price, Quantity = $quantity, flag = $flag where id = $id";
+            $query = "update books set Title = '$title', Price = $price, Quantity = $quantity, flag = $flag where id = $id";
         else if ($action == "delete")
             $query = "delete from books where id = $id";
 
